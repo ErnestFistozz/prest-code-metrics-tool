@@ -1,0 +1,239 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core
+END
+Precision.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/Precision.java
+END
+CategorizerNotValidException.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/CategorizerNotValidException.java
+END
+FilterDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/FilterDefinition.java
+END
+FrequencyDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/FrequencyDistribution.java
+END
+Recall.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/Recall.java
+END
+Distributions.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/Distributions.java
+END
+UnsupportedDataContextException.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/UnsupportedDataContextException.java
+END
+Option.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/Option.java
+END
+InvalidDataItemException.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/InvalidDataItemException.java
+END
+ProbabilityDistribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/ProbabilityDistribution.java
+END
+OptionDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/OptionDefinition.java
+END
+APIDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/APIDefinition.java
+END
+DataHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/DataHeader.java
+END
+UnsupportedThresholdException.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/UnsupportedThresholdException.java
+END
+Validator.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/Validator.java
+END
+Operand.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/Operand.java
+END
+DataItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/DataItem.java
+END
+VirtualMetric.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/VirtualMetric.java
+END
+Accuracy.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/Accuracy.java
+END
+ContextBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/ContextBuilder.java
+END
+Threshold.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/Threshold.java
+END
+CategorizerExecutor.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/CategorizerExecutor.java
+END
+CategorizerException.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/CategorizerException.java
+END
+MetricOperator.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/MetricOperator.java
+END
+Chart.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/Chart.java
+END
+VirtualMetricDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/VirtualMetricDefinition.java
+END
+PerformanceMetric.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/PerformanceMetric.java
+END
+ThresholdDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/ThresholdDefinition.java
+END
+OptionHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/OptionHandler.java
+END
+DistributionFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/DistributionFinder.java
+END
+ThresholdOperator.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/ThresholdOperator.java
+END
+DataField.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/DataField.java
+END
+Categorizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/Categorizer.java
+END
+Distribution.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/Distribution.java
+END
+DataHeadersNotMatchingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/DataHeadersNotMatchingException.java
+END
+IllegalDataException.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/IllegalDataException.java
+END
+ClassNotNominalException.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/ClassNotNominalException.java
+END
+DataSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/DataSet.java
+END
+CategorizerDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/59/prest-with-gui/PrestCore/src/categorizer/core/CategorizerDefinition.java
+END

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/117/prest-console/src/parser/Java/MetricsRelatedFiles
+END
+MetricNamesMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/60/prest-console/src/parser/Java/MetricsRelatedFiles/MetricNamesMap.java
+END
+NameAndIdTreeNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/60/prest-console/src/parser/Java/MetricsRelatedFiles/NameAndIdTreeNode.java
+END
+FileMetrics.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/117/prest-console/src/parser/Java/MetricsRelatedFiles/FileMetrics.java
+END
+MethodMetrics.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/117/prest-console/src/parser/Java/MetricsRelatedFiles/MethodMetrics.java
+END
+ClassContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/116/prest-console/src/parser/Java/MetricsRelatedFiles/ClassContainer.java
+END
+Symbols.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/60/prest-console/src/parser/Java/MetricsRelatedFiles/Symbols.java
+END
+ConvertToString.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/60/prest-console/src/parser/Java/MetricsRelatedFiles/ConvertToString.java
+END
+ClassMetrics.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/117/prest-console/src/parser/Java/MetricsRelatedFiles/ClassMetrics.java
+END
+CellArray.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/60/prest-console/src/parser/Java/MetricsRelatedFiles/CellArray.java
+END
+Cell.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/60/prest-console/src/parser/Java/MetricsRelatedFiles/Cell.java
+END
+PackageMetrics.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/117/prest-console/src/parser/Java/MetricsRelatedFiles/PackageMetrics.java
+END
+SparseMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/67/prest-console/src/parser/Java/MetricsRelatedFiles/SparseMatrix.java
+END
+Matrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/66/prest-console/src/parser/Java/MetricsRelatedFiles/Matrix.java
+END

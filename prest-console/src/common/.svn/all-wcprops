@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/129/prest-console/src/common
+END
+ParseResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/92/prest-console/src/common/ParseResult.java
+END
+CsvToArff.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/118/prest-console/src/common/CsvToArff.java
+END
+DirectoryListing.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/60/prest-console/src/common/DirectoryListing.java
+END
+ObjectToTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/92/prest-console/src/common/ObjectToTypes.java
+END
+ParseMetricGroups.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/92/prest-console/src/common/ParseMetricGroups.java
+END
+ArffUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/129/prest-console/src/common/ArffUtils.java
+END
+MetricGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/60/prest-console/src/common/MetricGroup.java
+END
+ApplicationProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/93/prest-console/src/common/ApplicationProperties.java
+END
+OpenFileDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/60/prest-console/src/common/OpenFileDialog.java
+END
+NodePair.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/60/prest-console/src/common/NodePair.java
+END
+ExtensionFileFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/60/prest-console/src/common/ExtensionFileFilter.java
+END
+ParseDataSets.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/91/prest-console/src/common/ParseDataSets.java
+END
+ProjectProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/93/prest-console/src/common/ProjectProperties.java
+END

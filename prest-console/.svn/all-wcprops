@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/132/prest-console
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/60/prest-console/.project
+END
+CategorizerDefinitions.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/60/prest-console/CategorizerDefinitions.xml
+END
+application.properties
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/60/prest-console/application.properties
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/106/prest-console/.classpath
+END

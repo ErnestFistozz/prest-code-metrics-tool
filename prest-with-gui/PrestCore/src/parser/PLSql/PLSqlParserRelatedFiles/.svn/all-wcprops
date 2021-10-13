@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/PLSql/PLSqlParserRelatedFiles
+END
+PLSqlParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/PLSql/PLSqlParserRelatedFiles/PLSqlParser.java
+END
+PLSqlLexer.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/PLSql/PLSqlParserRelatedFiles/PLSqlLexer.java
+END
+PLSqlParserExecuter.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/PLSql/PLSqlParserRelatedFiles/PLSqlParserExecuter.java
+END
+PLSqlTokenTypes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/PLSql/PLSqlParserRelatedFiles/PLSqlTokenTypes.txt
+END
+PLSqlTokenTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/PLSql/PLSqlParserRelatedFiles/PLSqlTokenTypes.java
+END
+SoftwareMetrics.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/PLSql/PLSqlParserRelatedFiles/SoftwareMetrics.java
+END

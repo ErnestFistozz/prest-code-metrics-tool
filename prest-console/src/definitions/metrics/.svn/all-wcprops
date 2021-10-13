@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/116/prest-console/src/definitions/metrics
+END
+BaseMetric.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/60/prest-console/src/definitions/metrics/BaseMetric.java
+END
+ClassMetricTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/60/prest-console/src/definitions/metrics/ClassMetricTypes.java
+END
+CommonMetricTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/116/prest-console/src/definitions/metrics/CommonMetricTypes.java
+END
+PackageMetricTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/60/prest-console/src/definitions/metrics/PackageMetricTypes.java
+END
+FileMetricTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/60/prest-console/src/definitions/metrics/FileMetricTypes.java
+END
+MetricTypeNames.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/60/prest-console/src/definitions/metrics/MetricTypeNames.java
+END
+MethodMetricTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/60/prest-console/src/definitions/metrics/MethodMetricTypes.java
+END

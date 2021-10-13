@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/C/fileops
+END
+Token.class
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/C/fileops/Token.class
+END
+SourceFileFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/C/fileops/SourceFileFilter.java
+END
+InputReader.class
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/C/fileops/InputReader.class
+END
+Module.class
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/C/fileops/Module.class
+END
+ProjectFileFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/C/fileops/ProjectFileFilter.java
+END
+CsvProcessor.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/C/fileops/CsvProcessor.class
+END
+Token.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/C/fileops/Token.java
+END
+Parser.class
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/C/fileops/Parser.class
+END
+ProjectSourceFilter.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/C/fileops/ProjectSourceFilter.class
+END
+ConvertToDataContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/C/fileops/ConvertToDataContext.java
+END
+InputReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/C/fileops/InputReader.java
+END
+SourceFile.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/C/fileops/SourceFile.class
+END
+Module.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/C/fileops/Module.java
+END
+SourceFileFilter.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/C/fileops/SourceFileFilter.class
+END
+Parser.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/C/fileops/Parser.java
+END
+ProjectSourceFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/C/fileops/ProjectSourceFilter.java
+END
+DirectoryFileFilter.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/C/fileops/DirectoryFileFilter.class
+END
+SourceFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/C/fileops/SourceFile.java
+END
+ProjectFileFilter.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/C/fileops/ProjectFileFilter.class
+END
+DirectoryScanner.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/C/fileops/DirectoryScanner.class
+END

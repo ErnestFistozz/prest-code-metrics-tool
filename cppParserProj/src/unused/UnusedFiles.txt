@@ -1,0 +1,27 @@
+/*
+This package contains files that were intended to be used for calculating object oriented metrics
+including response for class, couplings between objects and lack of cohesion metric. There was not enough 
+time to implement those metrics.
+
+Two main classes that were responsible for finding variable declarations and function calls inside a 
+function body were VarFinder and FunctionFinder. Other classes are there to assist the two. 
+Token classes were meant to simplify identifying parameters of a function call. 
+
+Currently there are StringTokens and FunctionCallTokens that form function call parameters VariableToken 
+was not used at all but was intended to store variable declarations and variables with owners 
+eg. "hello::myVar" or "int a"
+StringToken stores one simple string just as it's received after tokenization process. It was 
+inteded to be replaced with more describing tokens like the VariableToken once they were 
+identified correctly
+
+The idea of this was to use the parameter tokens to reduce the function call to a simpler form.
+Eg. func("hello"+getInt(1), 0.2f) would be reduced to something like this: func(string,float) and getInt(int).
+There was not enought time to implement this. Currently the more abstract tokenization of function call is 
+stored in FunctionCall class.
+
+There are some index tracking that was left from unsuccessful reuse of this 
+class with operator analyzer, (handledIndices variable and other functionality related to that)
+They can be removed.
+
+Constants is one remnant from prototyping phase and it's usage should be replaced with StringTools class
+*/

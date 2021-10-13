@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/definitions/metrics
+END
+FileMetricTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/definitions/metrics/FileMetricTypes.java
+END
+MetricTypeNames.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/definitions/metrics/MetricTypeNames.java
+END
+MethodMetricTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/definitions/metrics/MethodMetricTypes.java
+END
+BaseMetric.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/definitions/metrics/BaseMetric.java
+END
+ClassMetricTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/definitions/metrics/ClassMetricTypes.java
+END
+CommonMetricTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/definitions/metrics/CommonMetricTypes.java
+END
+PackageMetricTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/definitions/metrics/PackageMetricTypes.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/59/prest-with-gui/PrestCore
+END
+manifest.mf
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/57/prest-with-gui/PrestCore/manifest.mf
+END
+CategorizerDefinitions_old.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/57/prest-with-gui/PrestCore/CategorizerDefinitions_old.xml
+END
+CategorizerDefinitions.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/57/prest-with-gui/PrestCore/CategorizerDefinitions.xml
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/57/prest-with-gui/PrestCore/build.xml
+END

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/264/cppParserProj/src/cppStructures
+END
+CppScope.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/264/cppParserProj/src/cppStructures/CppScope.java
+END
+MemberVariable.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/262/cppParserProj/src/cppStructures/MemberVariable.java
+END
+CppDefine.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/262/cppParserProj/src/cppStructures/CppDefine.java
+END
+CppFunc.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/264/cppParserProj/src/cppStructures/CppFunc.java
+END
+CppNamespace.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/262/cppParserProj/src/cppStructures/CppNamespace.java
+END
+CppFuncParam.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/262/cppParserProj/src/cppStructures/CppFuncParam.java
+END
+FundamentalType.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/262/cppParserProj/src/cppStructures/FundamentalType.java
+END
+CppFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/264/cppParserProj/src/cppStructures/CppFile.java
+END
+CppType.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/262/cppParserProj/src/cppStructures/CppType.java
+END
+DeferredSentence.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/262/cppParserProj/src/cppStructures/DeferredSentence.java
+END
+CppStatement.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/262/cppParserProj/src/cppStructures/CppStatement.java
+END
+CppSentence.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/262/cppParserProj/src/cppStructures/CppSentence.java
+END
+CppClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/262/cppParserProj/src/cppStructures/CppClass.java
+END

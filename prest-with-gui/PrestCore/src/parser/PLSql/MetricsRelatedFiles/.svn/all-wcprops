@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/PLSql/MetricsRelatedFiles
+END
+PLSqlContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/PLSql/MetricsRelatedFiles/PLSqlContainer.java
+END
+PLSqlPackageMetrics.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/PLSql/MetricsRelatedFiles/PLSqlPackageMetrics.java
+END
+PLSqlFileMetrics.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/PLSql/MetricsRelatedFiles/PLSqlFileMetrics.java
+END
+PLSqlMethodMetrics.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/PLSql/MetricsRelatedFiles/PLSqlMethodMetrics.java
+END
+PLSqlConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/PLSql/MetricsRelatedFiles/PLSqlConstants.java
+END
+PLSqlCommonMetrics.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/57/prest-with-gui/PrestCore/src/parser/PLSql/MetricsRelatedFiles/PLSqlCommonMetrics.java
+END

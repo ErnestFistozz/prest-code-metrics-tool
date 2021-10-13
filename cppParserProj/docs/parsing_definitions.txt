@@ -1,0 +1,196 @@
+This file contains brief explanation of the definitions used to calculate the metrics.
+----------------------------------------------------------------
+
+Contents
+--------
+1. Supported operators
+1.1. Unsupported operators
+
+2. Operand recognition definitions
+2.1. Function parameters
+
+3. Cyclomatic complexity
+4. LOC metrics
+
+
+1. Operators
+------------------------------
+The following operators are counted towards Halstead metrics:
+
+Unary arithmetic operators
+- Plus (positive)	+
+- Minus (negative)	-
+
+Basic arithmetic operators
+- Addition 		+
+- Subtraction 		-
+- Multiplication 	*
+- Division 		/
+- Remainder 		%
+
+Increment and decrement operators
+- Pre-increment		++ (as in ++i)
+- Post-increment	++ (as in i++)
+- Pre-decrement		-- (as in --i)
+- Post-decrement	-- (as in i--)
+
+Comparison operators
+- Equals 			==
+- Not equal 		!=
+- Smaller than 		<
+- Bigger than 		>
+- Smaller or equal 	<=
+- Larger or equals 	>=
+
+Boolean operators
+- And 			&&, and
+- Or 				||, or
+- Not 			!, not
+
+Assignment operator	=
+
+Compound assignment operators
+- Addition			+=
+- Subtraction		-=
+- Multiplication	*=
+- Division			/=
+- Remainder		%=
+
+Bitwise operators
+- And				&
+- Or				|
+- Xor				^
+- Not				~
+
+Bitwise compound operators
+- And				&=
+- Or				|=
+- Xor				^=
+
+Bit shift / Direction-of-stream operators
+- Left			<<
+- Right			>>
+
+Compound bit shift / direction-of-stream operators
+- Left			<<=
+- Right			>>=
+
+Brackets, braces and parentheses
+- Array brackets	[...]
+- Parentheses		(...)
+- Scope braces		{...}
+
+Keyword operators
+- Return			return
+- Size of			sizeof
+- If statement		if
+- Else statement	else
+- While statement	while
+- Do-while statement	do...while
+- For statement		for
+
+Misc. operators
+- End of sentence	;
+- Pointer type		*
+
+
+1.1. Unsupported operators
+--------------------------
+- Inline 'if'		... ? ... : ...
+- Visibility		private:, public:, protected:
+
+
+
+2. Operand recognition definitions
+----------------------------------
+Operand recognition is based on operators. In case of unary operators, the operands bound by the said operators are counted. In binary operators, both operands are counted.
+
+An example of unary case:
+    if(!someBooleanValue) {...
+
+In this case, 'someBooleanValue' is counted as operand.
+
+An example of binary case:
+    int a = b + 5;
+
+In this case, assignment and addition are both binary operators. As the processing goes from left to right, the assignment operator is handled first, and 'int', 'a' and 'b' are added as operands. As the next operator is '+', it has only one unhandled operand left, '5'.
+
+The following are counted as operands:
+- Types					int, double, char, Foo, Bar ...
+- Variable names			a, b, i, someBooleanValue ...
+- Function calls			foo.doSomething()
+- Member variables			math.pi
+- Integer constants			1, 2, 3, -7, 0 ...
+- Floating point constants		3.14159f, 3.14159 ...
+- Character literals			'a', '!', '5' ...
+- String literals			"Hello world!", "qwerty" ...
+- Boolean constants			true, false
+
+
+2.1. Function parameters
+------------------------
+Function parameters are not counted as operands as-is. Instead, they are counted if they are used in the function body. For example:
+
+int add(int a, int b) {
+    return 1;
+}
+
+Here, the parameters 'a' and 'b' are not used, thus they are not counted towards the complexity. Now, another example:
+
+int add(int a, int b) {
+	return a + b;
+}
+
+In this case, 'a' and 'b' are both counted as operands, since they are used in the function body.
+
+
+
+3. Cyclomatic complexity
+------------------------
+The way the parser handles cyclomatic complexity is pretty straight-forward. The calculation is based on keywords that may cause the execution to have different routes through the function.
+
+Keywords that cause increment in cyclomatic complexity:
+- if
+- while
+- for
+- and / &&
+- or / ||
+- ?
+- case
+
+It should be noted that pre-processor directive '#ifdef' should also be counted towards the cyclomatic complexity, but as of now, it is not.
+
+
+4. Line of code metrics
+---------------
+
+LOC metrics consist of 4 different metrics.
+Empty lines: These are lines that are read from the source file. They are considered to be empty if they are empty or contains only space, tab or new line characters.
+Commented lines: These are lines that contain comments.
+Physical loc: These are lines that are not empty and contain character or characters that are not comments.
+Executable loc: These are also known as logical lines of code and executable source statements. They are counted using rules in the following section.
+
+4.1 Counting executable lines of code
+-Function, struct, union and class declarations and definitions will increment the count by one. Splitting definition to multiple lines will not affect counting.
+
+-If class, struct or union definition contains variable declarations after } token then the count is increased by two regardless of how many variables were defined. Variable or alias declarations inside the brackets are counted separately.
+Example of struct definition which consists of two executable locs:
+struct MyStruct{} myStruct;
+
+-Statements that end in ; increment executable loc count by one with exception that empty statements are not counted. 
+-Visibility modifiers public, protected and private increment the count.
+-if and else if's that are found increase the count by one. Separate else words will not increase the count. Condition that follows if keyword is not counted separately
+-catch, switch, while keywords increase the count by one. Content in parenthesis that follow those keywords will not increase the count.
+-do and try keywords are considered to be part of while or catch statements and they are not counted.
+-Each case and default keyword inside a switch increases the count by one 
+-for keyword increases the count by one. Each of the three statements in the for loop parenthesis increase the count by one unless the statement is empty. in case of for-each loop content inside the parenthesis increase the count by one
+Examples:
+for(;i<5;i++){} //This line contains three executable locs
+for(string str: names){} //This line contains two executable locs
+-Each preprocessor directive increases the count by one.
+Example:
+#include <iostream>
+
+Metric counting is done after macro expansion.
+
+

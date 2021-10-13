@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/59/prest-with-gui
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/57/prest-with-gui/.project
+END
+SDRelease.xml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/57/prest-with-gui/SDRelease.xml
+END
+CategorizerDefinitions.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/57/prest-with-gui/CategorizerDefinitions.xml
+END
+read.me
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/57/prest-with-gui/read.me
+END
+prest.log
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/57/prest-with-gui/prest.log
+END
+application.properties
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/57/prest-with-gui/application.properties
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/57/prest-with-gui/.classpath
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/117/prest-console/src/parser/Java/JavaParserRelatedFiles
+END
+Token.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/60/prest-console/src/parser/Java/JavaParserRelatedFiles/Token.java
+END
+TokenMgrError.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/60/prest-console/src/parser/Java/JavaParserRelatedFiles/TokenMgrError.java
+END
+ParseException.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/60/prest-console/src/parser/Java/JavaParserRelatedFiles/ParseException.java
+END
+JavaParserTokenManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/114/prest-console/src/parser/Java/JavaParserRelatedFiles/JavaParserTokenManager.java
+END
+JavaParserConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/60/prest-console/src/parser/Java/JavaParserRelatedFiles/JavaParserConstants.java
+END
+JavaCharStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/60/prest-console/src/parser/Java/JavaParserRelatedFiles/JavaCharStream.java
+END
+JavaParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/117/prest-console/src/parser/Java/JavaParserRelatedFiles/JavaParser.java
+END

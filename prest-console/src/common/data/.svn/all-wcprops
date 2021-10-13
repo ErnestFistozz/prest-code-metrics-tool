@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/116/prest-console/src/common/data
+END
+DataSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/92/prest-console/src/common/data/DataSet.java
+END
+UnsupportedDataContextException.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/91/prest-console/src/common/data/UnsupportedDataContextException.java
+END
+DataItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/92/prest-console/src/common/data/DataItem.java
+END
+ContextBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/92/prest-console/src/common/data/ContextBuilder.java
+END
+DataField.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/91/prest-console/src/common/data/DataField.java
+END
+DataContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/116/prest-console/src/common/data/DataContext.java
+END
+DataHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/92/prest-console/src/common/data/DataHeader.java
+END

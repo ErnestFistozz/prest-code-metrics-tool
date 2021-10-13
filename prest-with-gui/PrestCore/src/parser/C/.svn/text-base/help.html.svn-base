@@ -1,0 +1,336 @@
+<html>
+<title>HELP</title>
+<body>
+<br><br>
+<a name="top"><h3>HELP TOPICS<h3></a>
+<p>Please choose the appropriate help topic:</p>
+<a href="help.html#newproject">Creating a new project</a><br>
+<a href="help.html#openproject">Opening a project</a><br>
+<a href="help.html#deleteproject">Deleting a project</a><br>
+<a href="help.html#metrics">Metrics</a><br>
+<p>
+<b><a name="newproject">Creating a new project</a></b>
+</p>
+<p>
+Projects are the abstractions for individual software projects in<br>
+Metrics Exctractor.<br>
+It is possible to create a new project by selecting New Project from the File menu.<br>
+The following dialogue will appear when you select New Project.<br><br>
+<img src="help_images/new_project.png"><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+New Project Dialogue<br><br>
+You need to specify a name for the new project in this dialogue.<br>
+Besides that you need to specify the location of the source files to be used in<br>
+the project. This location has to be a directory.<br>
+Click Browse for finding the directory containing the source files,<br>
+then select the directory and click open.<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+
+<p>
+<b><a name="openproject">Opening a project</a></b>
+</p>
+<p>
+It is possible to open a project by selecting Open Project from the File menu.<br>
+Metrics Extractor stores project infromation in files with an obj extension.<br>
+Select the project file you would like to open and click Open.<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+
+<p>
+<b><a name="deleteproject">Deleting a project</a></b>
+</p>
+<p>
+First open the project you would like to delete.  After that choose Delete Project<br>
+from the File menu.  Please be aware that deleted projects cannot be restored.<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+
+<p>
+<b><a name="metrics">Metrics</a></b>
+</p>
+<p>
+Please choose the software metric from the list below to see its definition.<br>
+<a href="help.html#total_loc">total loc</a><br>
+<a href="help.html#blank_loc">blank loc</a><br>
+<a href="help.html#comment_loc">comment loc</a><br>
+<a href="help.html#code_comment_loc">code comment loc</a><br>
+<a href="help.html#executable_loc">executable loc</a><br>
+<a href="help.html#unique_operands">unique operands</a><br>
+<a href="help.html#unique_operators">unique operators</a><br>
+<a href="help.html#total_operands">total operands</a><br>
+<a href="help.html#total_operators">total operators</a><br>
+<a href="help.html#halstead_vocabulary">halstead vocabulary</a><br>
+<a href="help.html#halstead_length">halstead length</a><br>
+<a href="help.html#halstead_volume">halstead volume</a><br>
+<a href="help.html#halstead_level">halstead level</a><br>
+<a href="help.html#halstead_difficulty">halstead difficulty</a><br>
+<a href="help.html#halstead_effort">halstead effort</a><br>
+<a href="help.html#halstead_error">halstead error</a><br>
+<a href="help.html#halstead_time">halstead time</a><br>
+<a href="help.html#branch_count">branch count</a><br>
+<a href="help.html#decision_count">decision count</a><br>
+<a href="help.html#call_pairs">call pairs</a><br>
+<a href="help.html#condition_count">condition count</a><br>
+<a href="help.html#multiple_condition_count">multiple condition count</a><br>
+<a href="help.html#cyclomatic_complexity">cyclomatic complexity</a><br>
+<a href="help.html#cyclomatic_density">cyclomatic density</a><br>
+<a href="help.html#decision_density">decision density</a><br>
+<a href="help.html#design_complexity">design complexity</a><br>
+<a href="help.html#design_density">design density</a><br>
+<a href="help.html#normalized_cyclomatic_complexity">normalized cyclomatic complexity</a><br>
+<a href="help.html#formal_parameters">formal parameters</a><br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="total_loc">total loc</a></b><br>
+This metric is a count of the total number of lines in a file or function.<br>
+It was proposed as a measure of size.<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="blank_loc">blank loc</a></b><br>
+This metrics is a count of the number of blank lines in a file or function.<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="comment_loc">comment loc</a></b><br>
+This metric counts the number of commented lines of code in a file or function.<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="code_comment_loc">code comment loc</a></b><br>
+This metric counts the number of lines that contain both code and comment.<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="executable_loc">executable loc</a></b><br>
+This is the number of lines that contain only white space and code.<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="unique_operands">unique operands</a></b><br>
+This metric counts the number of unique operands in a file or function.<br>
+The operands can be any one of the following:<br>
+Identifiers (eg. variable names)<br>
+String Literals (eg. "Hello World")<br>
+Character literals (eg. '\n')<br>
+Numeric literals (eg. 123, 1.5, 0XAA)<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="unique_operators">unique operators</a></b><br>
+This metric counts the number of unique operators in a file or function.<br>
+The operators can be any one of the following:<br>
+Logical operators (eg. ||)<br>
+Arithmetic operators (eg. +,-)<br>
+Assignment operators (eg. %=, =)<br>
+Bitwise operators (eg. ~)<br>
+Some keywords (eg. for, while)<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="total_operands">total operands</a></b><br>
+This metric is the count of total operand occurences in a file or function.<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="total_operators">total operators</a></b><br>
+This metric is the count of total operator occurences in a file or function.<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="halstead_vocabulary">halstead vocabulary</a></b><br>
+This metrics quantifies the vocabulary of a module.<br>
+It is the sum of number of unique operands and unique operators.<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="halstead_length">halstead length</a></b><br>
+This metric quantifies the length of a module.<br>
+It is sum of total operands and total operators in a module.<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="halstead_volume">halstead volume</a></b><br>
+This metric measures the volume of a module in terms of its vocabulary and length.<br>
+It is calculated as follows:<br>
+Halstead Volume = (Halstead Length) x log (Halstead Vocabulary).<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="halstead_level">halstead level</a></b><br>
+This metric measures the level at which program can be understood.<br>
+It is calculated as follows:<br>
+Halstead Level = (Halstead Potential Volume)/(Halstead Volume)<br>
+where Halstead Potential Volume is:<br>
+if unique operators = n1, unique operands = n2<br>
+and total operands = N2, Halstead Volume = V<br>
+Halstead Potential Volume = (2*n2/n1*N2)*V<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="halstead_difficulty">halstead difficulty</a></b><br>
+This metric quantifies the difficulty of a module.<br>
+It is calculated as follows:<br>
+Halstead Difficulty = 1/(Halstead Level)<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="halstead_effort">halstead effort</a></b><br>
+This is a measure of the effort required to program a module.<br>
+Halstead Effort = (Halstead Volume)/(Halstead Length)<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="halstead_error">halstead error</a></b><br>
+This is an estimation for the number of errors in a module.<br>
+Halstead Error = (Halstead Volume)/S*<br>
+where S* is the number of mental discrimantions between errors.<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="halstead_time">halstead time</a></b><br>
+This metric is an approximation for the amount of time necessary to program a module.<br>
+Halstead Time = (Halstead Effort)/18.<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="branch_count">branch count</a></b><br>
+This metric is a count of the number of branches in a given module.<br>
+Branches are defined as the execution paths leaving decision points.<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="decision_count">decision count</a></b><br>
+This is the total number of decision points in a module.<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="call_pairs">call pairs</a></b><br>
+This number is the total number of calls to other modules from a module.<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="condition_count">condition count</a></b><br>
+This metric measures the number of conditions in a module.<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="multiple_condition_count">multiple condition count</a></b><br>
+This metric measures the number of multiple conditions in a module.<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="cyclomatic_complexity">cyclomatic complexity</a></b><br>
+This metric is a count of execution paths in a module.<br>
+It can be used to estimate the testability and maintainability of a module.<br>
+Higher values generally indicate poor testability and understandability.<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="cyclomatic_density">cyclomatic density</a></b><br>
+This metric measures the density of different execution paths in a module.<br>
+It is the ratio of cyclomatic complexity to executable lines of code.<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="decision_density">decision density</a></b><br>
+This number is the ratio of decision points and conditions.<br>
+It measures the density of decision points.<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="design_complexity">design complexity</a></b><br>
+This metric measures the complexity of the design of a module in relation to other modules.<br>
+It can be used to estimate the amount of testing effort required for integration.<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="design_density">design density</a></b><br>
+This metrics is calculated as:<br>
+Design density = (Design Complexity)/(Cyclomatic Complexity)<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="normalized_cyclomatic_complexity">normalized cyclomatic complexity</a></b><br>
+This metric normalizes the cyclomatic complexity of a module using the total loc<br>
+in that module.<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+<p>
+<b><a name="formal_parameters">formal parameters</a></b><br>
+This is the number of formal parameters (i.e. arguments) to a module.<br>
+<p>
+<a href="help.html#top">top</a><br>
+</p>
+</p>
+</body>
+</html>

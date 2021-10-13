@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="PrestGui/src"/>
+	<classpathentry kind="src" path="PrestCore/src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="/home/bora/repos/softlab/prest/lib/antlr-2.7.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/bora/repos/softlab/prest/lib/DefectMatcher.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/bora/repos/softlab/prest/lib/ilf-gpl.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/bora/repos/softlab/prest/lib/jcommon-1.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/bora/repos/softlab/prest/lib/jericho-html-2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/bora/repos/softlab/prest/lib/jfreechart-1.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/bora/repos/softlab/prest/lib/liquidlnf.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/bora/repos/softlab/prest/lib/log4j-1.2.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/bora/repos/softlab/prest/lib/MetricCollectorJavaParser.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/bora/repos/softlab/prest/lib/poi-3.0.2-FINAL-20080204.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/bora/repos/softlab/prest/lib/poi-contrib-3.0.2-FINAL-20080204.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/bora/repos/softlab/prest/lib/poi-scratchpad-3.0.2-FINAL-20080204.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/bora/repos/softlab/prest/lib/SDToolDev.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/bora/repos/softlab/prest/lib/swing-layout-1.0.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/bora/repos/softlab/prest/lib/weka.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/bora/repos/softlab/prest/lib/xercesImpl.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

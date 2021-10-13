@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<categorizerDefinition>
+		<label type="java.lang.String">Naive Bayes</label>
+		<className type="java.lang.String">categorizer.aiCategorizer.naiveBayes.NaiveBayes</className>
+		<description type="java.lang.String">Uses naive bayes algorithm for learning.</description>
+		<options>
+		</options>
+	</categorizerDefinition>
+	<categorizerDefinition>
+		<label type="java.lang.String">Decision Tree</label>
+		<className type="java.lang.String">categorizer.aiCategorizer.decisionTree.DecisionTree</className>
+		<description type="java.lang.String">Uses C4.5 decision tree algorithm for learning. Supports numeric attributes. Based on simple entropy calculation.</description>
+		<options>
+			<option>
+				<label type="java.lang.String">Class Percentage</label>
+				<description type="java.lang.String">Indicates the accuracy of the tree</description>
+				<isNominal type="java.lang.String">false</isNominal>
+				<minVal type="java.lang.String">50.0</minVal>
+				<maxVal type="java.lang.String">100.0</maxVal>
+			</option>
+		</options>
+	</categorizerDefinition>
+</root>

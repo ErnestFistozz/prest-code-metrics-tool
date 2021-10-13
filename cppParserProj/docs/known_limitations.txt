@@ -1,0 +1,74 @@
+Here's a list of known limitations and issues in the C++ parser.
+=====================================================
+
+-------------------------------
+Pre-processor-controller bodies (double sets of curly braces)
+-------------------------------
+void Foo::Bar()
+#ifndef TEST
+{ }
+#else
+{
+    ....
+}
+#endif
+
+Problem:
+The function bodies are not recognized correctly.
+
+Solution:
+Search for conditional compiling directions and analyse the file once per each branch.
+-------------------------------
+
+
+-------------------------------
+Special numeric constants
+-------------------------------
+Hexadecimal: 0x0f
+Exponents: 1.5e-4
+           -5.3E2
+
+Problem:
+Numeric constants get split up in some cases.
+
+Solution:
+Construct numeric constants with more care.
+-------------------------------
+=======Special numeric constants
+-------------------------------
+Hexadecimal: 0x0f
+Exponents: 1.5e-4
+           -5.3E2
+
+Problem:
+Numeric constants get split up in some cases.
+
+Solution:
+Construct numeric constants with more care.
+
+-------------------------------
+LOC metric
+-------------------------------
+Problem:
+The formal definition of LOC metrics that we used states that LOC metric counting
+should not include macro expansions.
+
+Solution:
+Do the counting before the expansion
+
+------------------------------
+Class and struct recognition
+------------------------------
+Problem
+Parsing structs/classes that have namespaces are not handled properly and can produce
+structs or classes with wrong names and unpredictable behavior of the parser.
+Currently the parser gives some warning when there are known to be issues. These are
+related to index our of bound warnings that are given when structs are not read correctly
+
+-----------------------------
+C++11 compatiblity
+-----------------------------
+Problem:
+Many new features of the C++11 were not tested at all and they may or may not cause issues with the
+parser. For example lambda functions and auto keyword usage should be tested.
+

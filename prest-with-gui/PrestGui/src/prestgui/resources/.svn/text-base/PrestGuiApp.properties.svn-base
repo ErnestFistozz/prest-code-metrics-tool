@@ -1,0 +1,11 @@
+# Application global resources
+
+Application.name = Prest
+Application.title = Prest Tool
+Application.version = 1.0
+Application.vendor = BOUN CMPE
+Application.homepage = http://www.cmpe.boun.edu.tr
+Application.description = Project Defect Prediction and Metric Calculation Tool
+Application.vendorId = Sun
+Application.id = ${Application.name}
+Application.lookAndFeel = system 
